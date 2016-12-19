@@ -712,7 +712,7 @@ initialize_logdir() {
   echo "Initializing logdir..."
   mkdir -p ${REDMINE_LOG_DIR}/supervisor
   chmod -R 0755 ${REDMINE_LOG_DIR}/supervisor
-  chown -R root: ${REDMINE_LOG_DIR}/supervisor
+  #chown -R root: ${REDMINE_LOG_DIR}/supervisor
 
   mkdir -p ${REDMINE_LOG_DIR}/nginx
   chmod -R 0755 ${REDMINE_LOG_DIR}/nginx
